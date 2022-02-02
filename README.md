@@ -21,12 +21,12 @@ In simple words, we help you turn your trading strategies into trading bots. Thi
 3. Fast trading executions, i.e., bots can execute a trade within few milliseconds.
 4. Monitoring multiple markets, i.e., the bots can monitor many different markets at the same time
 
-We provide the step by step implementation of some well-known algorithmic trading strategies, e.g., arbitrage, mean reversion, price action strategies, e.t.c. The list will grow over time.
+We provide the step by step implementation of some well-known algorithmic trading strategies, e.g., arbitrage, price action, e.t.c. The list will grow over time.
 
 Our goal is to make everyone be able to implement their own trading strategies. Our tutorials are designed in a way that people with no programming background can understand as well. 
 
 ## Tips [Updating]
-There are few tips we learned along the way, and want to share with you.
+There are few tips we learned along the way, and we want to share with you.
 ### Dos
 1. Come up with your own trading strategies
 2. Learn basic trading skills
