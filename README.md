@@ -11,6 +11,8 @@ To support our work, please help to do the followings:
 - [Binance](https://accounts.binance.com/en/register?ref=10027372)
 - [Ftx](https://ftx.com/referrals#a=7313269)
 - [Kucoin](https://www.kucoin.com/ucenter/signup?rcode=E3It4l)
+- [MooMoo](https://j.moomoo.com/00bRdZ)
+- [Crypto.com APP](https://crypto.com/app/b6p38yec8z)
 
 ## Overview
 In simple words, we help you turn your trading strategies into trading bots. This provides a lot of benefits:
