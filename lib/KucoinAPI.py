@@ -143,6 +143,23 @@ class KucoinAPI:
         orderid = ret['data']['orderId']
         return orderid
 
+    # place stop order
+    def placeStopOrder(self, side, symbol, stop_price, price, size, order_type="limit", stop_type="loss"):
+        endpoint = "/api/v1/stop-order"
+        body = {
+            "clientOid": str(int(time.time() * 1000)),
+            "side": side,
+            "symbol": symbol,
+            "type": order_type,
+            "stop": stop_type,
+            "stopPrice": stop_price,
+            "price": price,
+            "size": size 
+        }
+        ret = self.postPrivate(endpoint, body)
+        orderid = ret['data']['orderId']
+        return orderid
+
     # get order
     def getOrder(self, orderid):
         endpoint = "/api/v1/orders/%s" % orderid
