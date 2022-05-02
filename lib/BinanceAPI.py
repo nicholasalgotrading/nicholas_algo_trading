@@ -69,7 +69,7 @@ class BinanceAPI:
         data = params.copy()
         ts = str(int(1000 * time.time()))
         data.update({"timestamp": ts})
-        h = hmac.new(str(self.secret).encode(), \
+        h = hmac.new(str(self.api_secret).encode(), \
                 str(urlencode(data)).encode(), \
                 hashlib.sha256)
         signature = h.hexdigest()
@@ -80,7 +80,7 @@ class BinanceAPI:
         params.update({"recvWindow": 50000})
         query = urlencode(self.signParam(params))
         url = "%s%s?%s" % (self.host, endpoint, query)
-        header = {"X-MBX-APIKEY": self.key}
+        header = {"X-MBX-APIKEY": self.api_key}
         return header, url
 
     def getPrivate(self, endpoint, params):
